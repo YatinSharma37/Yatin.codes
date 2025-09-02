@@ -145,13 +145,7 @@ export function SkillsSection() {
                            transition={{ duration: 0.5, delay: 1 + skillIndex * 0.1 }}
                            viewport={{ once: true }}
                            animate={{ 
-                             x: [0, 100, 0],
-                             opacity: [0, 0.5, 0]
-                           }}
-                           transition={{ 
-                             duration: 2, 
-                             repeat: Infinity, 
-                             repeatDelay: 3 
+                             x: [0, 100, 0]
                            }}
                          />
                        </motion.div>
